@@ -1,0 +1,83 @@
+* {
+    font-family: "Rubik", sans-serif
+}
+
+body, html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DDDDDD;
+}
+
+.error {
+    background-color: red;
+    color: white;
+    display: none;
+    padding: 6px 12px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.bmi-cal {
+    background-color: white;
+    padding: 14px 2rem;
+    box-shadow: 0 0 10px rgb(176, 176, 230);
+    border-radius: 2%;
+}
+
+nav h1 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.input {
+    font-size: 1.1rem;
+    padding: 1rem 10px;
+    border-radius: 6px;
+    width: 94%;
+    border: 1px dotted grey;
+    outline: none; 
+}
+
+.weight, .height {
+    margin-bottom: 2rem;
+}
+
+.btn {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+.submit, .clear {
+    padding: 10px 8rem;
+    border-radius: 6px;
+    font-size: 1.3rem;
+}
+
+.submit {
+    background-color: rgb(78, 78, 247);
+    border: none;
+    color: white;
+}
+
+.clear {
+    background-color: rgb(184, 184, 184);
+    border: none;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
